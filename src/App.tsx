@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Board } from './models/Board';
 import BoardComponent from './components/BoardComponent'
 import './App.css'
-import { Board } from './models/Board';
 
 const App = () => {
   const [board, setBoard] = useState(new Board())
